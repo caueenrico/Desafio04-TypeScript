@@ -19,5 +19,5 @@ Atenção para o listener do botão login-button que devolve o sessionID do usu�
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A RESPOSTA ESTÁ NA PASTA 
+A RESPOSTA ESTÁ NA PASTA Desafio04-TypeScript/src/
 
