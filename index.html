@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dist/app.js" defer></script>
+</head>
+
+<body>
+    <div style="display: flex;">
+        <div style="display: flex; width: 300px; height: 100px; justify-content: space-between; flex-direction: column;"> 
+            <h3>01. Faça o login com sua API Key</h3>
+            <input id="login" placeholder="Login" onchange="preencherLogin(event)">
+            <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+            <input id="api-key" placeholder="Api Key" onchange="preencherApi()">
+            <button id="login-button">Login</button>
+        </div>
+
+        <div id='listHere'>
+            <h3> 02. Criar Lista</h3>
+            <div style="display: flex; width: 400px; height: 100px; flex-direction: column;">
+                <input id='nameList' type="text" placeholder="digite o nome da lista">
+                <input id="descriptList" type="text" placeholder="descrição da lista">
+                <button id="criarLista">Criar Lista</button>
+            </div>
+
+        </div>
+
+        <div id="search-container" style="margin-left: 20px">
+            <h3>03. Pesquisar Filme</h3>
+            <input id="search" placeholder="Escreva...">
+            <button id="search-button">Pesquisar Filme</button>
+            <p>Primeiro Item : NOME do Filme</p>
+            <p>Segundo item : ID do Filme</p>
+        </div>
+
+    </div>
+
+    <div id="importList">
+        <h3>04. Importar Lista</h3>
+        <input id='inputId' type="text" placeholder="digite o id da lista">
+        <button id="pegandoLista">Importar Lista</button>
+    </div>
+
+    <div>
+        <h3>05. adiconar filme para uma Lista</h3>
+        <p>ID Filme : </p>
+        <input id='inputIdFilm' type="text" placeholder="digite o id do filme"> 
+        <p>ID Lista :</p>
+        <input id='inputIdList' type="text" placeholder="digite o id da Lista">  
+        <button id="addFilm">Adicionar Filme</button>
+    </div>
+
+</body>
+
+</html>
