@@ -19,5 +19,9 @@ Atenção para o listener do botão login-button que devolve o sessionID do usu�
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A RESPOSTA ESTÁ NA PASTA [Desafio04-TypeScript/src/]
+A RESPOSTA ESTÁ NA PASTA [[Desafio04-TypeScript/src/]](https://github.com/caueenrico/Desafio04-TypeScript/blob/main/src/app.ts)
+
+Se você está fazendo o bootcamp assim como eu, tente fazer sozinho. Eu aprendi muito fazendo esse desafio e demorei dois dias para finalizar 
+
+
 
